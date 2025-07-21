@@ -1,0 +1,10 @@
+const APP_NAME = "Employee Profile Dashboard";
+
+const APP_DESCRIPTION = null;
+
+const BG_COLOR = "#F3F3Ee";
+const PRIMARY_COLOR = "#133E87";
+const SECONDARY_COLOR = "#608BC1";
+const TERTIARY_COLOR = "#CBDCEB"
+
+export { APP_NAME, APP_DESCRIPTION, BG_COLOR, PRIMARY_COLOR, SECONDARY_COLOR, TERTIARY_COLOR }

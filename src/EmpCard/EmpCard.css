@@ -1,0 +1,81 @@
+.employee-card {
+  width: 340px; 
+  padding: 10px 20px 1px 20px;
+  margin: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 2px solid #133E87;
+  border-radius: 12px;
+  position: relative;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+  backdrop-filter: blur(6px);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s;
+}
+
+.level-badge {
+  position: absolute;
+  top: 10px;
+  left: -0.01px;
+  color: white;
+  padding: 4px 12px 4px 10px;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 0 20px 20px 0;
+  height: auto;
+  line-height: 1;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.employee-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.employee-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  margin-top: 10px;
+}
+
+.employee-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #133E87;
+  margin: 0;
+}
+
+.employee-image {
+  height: 76px;
+  width: 76px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #133E87;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.employee-details {
+  margin-top: -20px;
+}
+
+.employee-bio {
+  font-size: 14px;
+  color: #333;
+}
+
+.employee-info {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  color: #2c2c2c;
+}
+
+.employee-info-icon {
+  margin-right: 10px;
+  color: #133E87;
+}
